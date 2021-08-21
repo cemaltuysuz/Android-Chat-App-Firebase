@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="@color/greyback"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/girise_dön_btn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/abc_vector_test"
+            android:backgroundTint="@color/greenline"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+        android:id ="@+id/profile_image"
+        android:layout_width ="100dp"
+        android:layout_height ="100dp"
+        app:civ_border_width="4dp"
+        app:civ_border_color="@color/greenline"
+        android:background="@drawable/defpp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:background="@drawable/white_bordur"
+            android:hint="kullanici adi"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#fff"
+            android:id="@+id/kayit_kullaniciadi"/>
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:background="@drawable/white_bordur"
+            android:hint="e-mail"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#fff"
+            android:id="@+id/kayit_mail"/>
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:background="@drawable/white_bordur"
+            android:hint="sifre"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#fff"
+            android:id="@+id/kayit_sifre"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:background="@drawable/white_bordur"
+            android:hint="sifre tekrari"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#fff"
+            android:id="@+id/kayit_sifre_tekrari"/>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:background="@drawable/white_bordur"
+            android:text="KAYİT OL"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#fff"
+            android:id="@+id/kayit_btn"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

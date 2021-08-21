@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Talk">
+
+    <LinearLayout
+        android:id="@+id/ozel_mesajlar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/mesaj_gonder"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/message.this_home_btn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="?attr/homeAsUpIndicator"
+            android:backgroundTint="@color/greenline"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id ="@+id/profile_image"
+            android:layout_width ="50dp"
+            android:layout_height ="50dp"
+            android:background="@drawable/defpp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="10dp"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp"/>
+
+        <TextView
+            android:id="@+id/sohbet_ortası_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USERNAME"
+            android:textSize="26dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/mesaj_listesi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="0dp"
+            android:divider="@android:color/transparent"
+            android:stackFromBottom="true"
+            android:transcriptMode="alwaysScroll"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/mesaj_gonder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="7dp"
+            android:hint="Mesaj gönder"
+            android:id="@+id/message_edit"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/mesaj_gonder_btn"
+            android:background="@drawable/green_bordur"/>
+
+        <Button
+            android:id="@+id/mesaj_gonder_btn"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@android:drawable/ic_menu_send"
+            android:backgroundTint="@color/greenline"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/navBtnKesfet"
+        android:icon="@drawable/ikesfet"
+        android:title="Kesfet"/>
+
+    <item
+        android:id="@+id/navBtnInbox"
+        android:icon="@drawable/imessage"
+        android:title="Sohbet"/>
+
+    <item
+        android:id="@+id/navBtnProfil"
+        android:icon="@drawable/iuser"
+        android:title="Profil" />
+
+
+
+</menu>
