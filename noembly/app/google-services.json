@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "998181279604",
+    "project_id": "noembly-ccb8b",
+    "storage_bucket": "noembly-ccb8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998181279604:android:f08de32e9dd3fba89efe21",
+        "android_client_info": {
+          "package_name": "com.example.noembly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998181279604-9p5sbh0a0aijg46cp175rqm274fb0psk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtRudQ7DX9ZbQqjlu3KtrozacuCbEflEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998181279604-9p5sbh0a0aijg46cp175rqm274fb0psk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
