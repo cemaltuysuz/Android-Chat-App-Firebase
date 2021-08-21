@@ -2,8 +2,9 @@
 
 
 
-![chat screen](https://user-images.githubusercontent.com/79871380/130317743-8ab5c92a-b613-46f1-9301-48b4d6509f5a.png)
+![chat screen](https://user-images.githubusercontent.com/79871380/130317743-8ab5c92a-b613-46f1-9301-48b4d6509f5a.png width="400" height="790") 
 ![push screen](https://user-images.githubusercontent.com/79871380/130317752-f1622440-d991-402a-b0c6-725017186b5b.png)
+
 
 
 ## Important note
